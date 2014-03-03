@@ -1,0 +1,38 @@
+{
+    "name": "zoopcommerce/professor-x",
+    "description": "Zend Framework 2 Skeleton which includes Zoop helper modules",
+    "type": "library",
+    "keywords": [
+        "doctrine",
+        "zf2",
+        "zoop",
+        "shard",
+        "mongo",
+        "zoop"
+    ],
+    "homepage": "http://zoopcommerce.github.io/professor-x",
+    "authors": [
+        {
+            "name": "Josh Stuart",
+            "email": "josh.stuart@zoopcommerce.com"
+        },
+        {
+            "name": "Tim Roediger",
+            "email": "superdweebie@gmail.com"
+        }
+    ],
+    "repositories": [
+    ],
+    "require": {
+        "php"                                : ">=5.4",
+        "zoopcommerce/havok"                 : "~1.1",
+        "zoopcommerce/shard-module"          : "~4.0",
+        "zoopcommerce/slipstream"            : "~0.1",
+        "zendframework/zendframework"        : "dev-develop#f92a07bc3f5cbd49a518ee880b1451f357c71376"
+    },
+    "require-dev": {
+        "phpunit/phpunit"           : ">=3.7",
+        "squizlabs/php_codesniffer" : "1.4.*",
+        "phpmd/phpmd"               : "1.4.*"
+    }
+}
